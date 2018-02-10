@@ -144,7 +144,7 @@ $lblWifiMACDesc.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lblWifiMACDesc)
 
 $lblEethernetIP = New-Object system.windows.Forms.Label
-$lblEethernetIP.Text = "label"
+$lblEethernetIP.Text = ""
 $lblEethernetIP.AutoSize = $true
 $lblEethernetIP.Width = 25
 $lblEethernetIP.Height = 10
@@ -153,7 +153,7 @@ $lblEethernetIP.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lblEethernetIP)
 
 $lblEthernetMAC = New-Object system.windows.Forms.Label
-$lblEthernetMAC.Text = "label"
+$lblEthernetMAC.Text = ""
 $lblEthernetMAC.AutoSize = $true
 $lblEthernetMAC.Width = 25
 $lblEthernetMAC.Height = 10
@@ -162,7 +162,7 @@ $lblEthernetMAC.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lblEthernetMAC)
 
 $lblWifiIp = New-Object system.windows.Forms.Label
-$lblWifiIp.Text = "label"
+$lblWifiIp.Text = ""
 $lblWifiIp.AutoSize = $true
 $lblWifiIp.Width = 25
 $lblWifiIp.Height = 10
@@ -171,7 +171,7 @@ $lblWifiIp.Font = "Microsoft Sans Serif,10"
 $Form.controls.Add($lblWifiIp)
 
 $lblWifiMAC = New-Object system.windows.Forms.Label
-$lblWifiMAC.Text = "label"
+$lblWifiMAC.Text = ""
 $lblWifiMAC.AutoSize = $true
 $lblWifiMAC.Width = 25
 $lblWifiMAC.Height = 10
