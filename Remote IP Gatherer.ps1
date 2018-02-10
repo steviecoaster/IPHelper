@@ -17,7 +17,7 @@ $btnCapture.Height = 67
 
 $btnCapture.Add_Click({
 
-    $ethernet = Get-NetIPAddress -InterfaceAlias $ethAlias -AddressFamily IPv4 | Select-Objet InterfaceIndex,Get-NetIPAddress
+    $ethernet = Get-NetIPAddress -InterfaceAlias $ethAlias -AddressFamily IPv4 | Select-Object InterfaceIndex,Get-NetIPAddress
     $ethernet | Add-Member -MemberType NoteProperty -Name MACAddress -Value $(Get-NetAdapter -InterfaceIndex $ethernet.InterfaceIndex | Select-Object -ExpandProperty MACAddress)
     $lblEethernetIP.Text = $ethernet.IPAddress
     $lblEthernetMAC.Text = $ethernet.MACAddress -replace ("-",":")
